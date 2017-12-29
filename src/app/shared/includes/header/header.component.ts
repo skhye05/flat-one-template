@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
   @ViewChild('navbar') navBarElement: ElementRef;
   public bgOpacity: number;
   navPos: number;
-
+  public isCollapsed = true;
   constructor( @Inject(DOCUMENT) private document: Document, private render: Renderer2) {
     this.navIsFixed = false;
     this.bgOpacity = 0;
@@ -23,6 +23,10 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.navPos = this.navBarElement.nativeElement.offsetTop;
+  }
+
+  toggle() {
+    this.isCollapsed = true;
   }
 
   @HostListener('window:scroll', ['$event'])
