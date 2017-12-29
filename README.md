@@ -1,6 +1,6 @@
 # FlatOne
 
-## Template develop with Angular 5 and [ng-boostrap](https://ng-bootstrap.github.io) based on 
+## Template develop with Angular 5 and [ng-boostrap](https://ng-bootstrap.github.io) based on the flat design image by [i.pinimg](https://i.pinimg.com/736x/85/cc/47/85cc4761ccbde68e94fccb382580bda7--flat-website-one-page-website.jpg).
 
 Template link: [flat template angular](https://skhye05.github.io/flat-one-template/).
 
